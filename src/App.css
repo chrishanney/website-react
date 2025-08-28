@@ -1,0 +1,42 @@
+
+nav {
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  background-color: rgb(71, 161, 202);
+
+}
+
+.nav-list {
+  height: 60px;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.nav-list-item {
+  row-gap: 10px;
+  font-size: 1.1rem;
+
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.announcement-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;;
+}
+
+.announcement-header {
+  font-size: 25px;
+}
+.announcement-text {
+  max-width: 1280 px;
+  font-size: 15px;
+}
