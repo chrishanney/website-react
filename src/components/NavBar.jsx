@@ -1,6 +1,8 @@
 export default function NavBar() {
     return (
+        <>
         <nav className="navbar">
+        <span className="my-name">Chris Hanney</span>
           <ul className="nav-list">
             <li className="nav-list-item">
               <a 
@@ -24,6 +26,7 @@ export default function NavBar() {
             </li>
           </ul>          
         </nav>
+        </>
     )
 
 }
